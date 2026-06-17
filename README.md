@@ -2,8 +2,6 @@
 
 An end-to-end data mining and machine learning exploratory pipeline designed to profile, clean, and analyze a 100k records dataset tracking patient drug side effects, lifestyle risk factors, and clinical severities.
 
----
-
 ## 📋 Project Architecture & Completed Tasks
 
 This repository details the fundamental phase of our data preprocessing and exploratory data analysis (EDA) pipeline, satisfying the core clinical requirements for robust machine learning model preparation.
@@ -30,13 +28,11 @@ To prepare the dataset for downstream distance-based classifiers (SVM, k-NN) and
 - **Interactive Dashboards:** Built dynamic `Plotly` dashboard suites exploring correlations across 8 separate critical dimensions simultaneously:
   $$\text{Severity vs. } \{ \text{Chronic Condition, Smoker, Alcohol Use, Hospitalized, Outcome, Side Effect, Drug Name, Age Group} \}$$
 
----
-
 ## Dataset:
 
 The domain of the dataset is Pharmacy domain. The name of the dataset is 100k Drug Side Effects Dataset. It is from Kaggle website. The dataset is a high-quality synthetic healthcare dataset containing 100,000 patient drug side-effect reports designed for Machine Learning, Deep Learning, Predictive Analytics, Healthcare AI, Data Visualization Projects. This dataset simulates realistic pharmacovigilance and adverse drug reaction (ADR) reporting patterns using structured healthcare-style data distributions.
 
-Description of Dataset Features:
+### Description of Dataset Features:
 
 patient_id = Unique patient identifier
 age = age of Patient
