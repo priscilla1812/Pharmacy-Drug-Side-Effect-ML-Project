@@ -35,20 +35,35 @@ The domain of the dataset is Pharmacy domain. The name of the dataset is 100k Dr
 ### Description of Dataset Features:
 
 patient_id = Unique patient identifier
+
 age = age of Patient
+
 gender = Male / Female / Other
+
 country = Patient's country of origin/residence
+
 drug_name = Prescribed medication
+
 dosage_mg = Drug dosage in mg
+
 side_effect = Reported adverse reaction
+
 severity = Mild / Moderate / Severe
+
 outcome = Recovery status
+
 report_date = Side effect report date
+
 treatment_start_date = Medication start date
+
 chronic_condition = Existing health condition
+
 smoker = Smoking status
+
 alcohol_use = Alcohol consumption pattern
+
 hospitalized = Hospitalization status
+
 recovery_days = Recovery duration
 
 ## 🚀 Key Clinical Insights
